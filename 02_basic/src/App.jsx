@@ -1,11 +1,26 @@
 import "./App.css";
 
-function Title() {
-  return <h1>Hello Worlds!</h1>;
+function Heading() {
+  return <h1>This is a First Heading!</h1>;
 }
 
+function Title() {
+  return <h3>This is a First Title!</h3>;
+}
+
+//function App() {
+//  return <Title />;
+//}
+
 function App() {
-  return <Title />;
+  return (
+    <div>
+      <Heading />
+      <Title />
+      <Title />
+      <p>This is paragraph.</p>
+    </div>
+  );
 }
 
 export default App;
