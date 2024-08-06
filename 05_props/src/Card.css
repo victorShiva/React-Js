@@ -1,0 +1,20 @@
+.card{
+    border: 2px solid rgb(33, 33, 33);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding-block: 1rem;
+}   
+button{
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(29, 29, 30);
+    color: aliceblue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(47, 46, 46,0.6);
+    border: 2px solid rgb(35, 78, 235);
+}
