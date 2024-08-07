@@ -41,7 +41,7 @@ function Card({ title, price }) {
   let styles = { backgroundColor: price >= 50000 ? "#444" : "#923" };
   return (
     <div
-      className="card"
+      className='card'
       style={styles}>
       <h2>{title}</h2>
       <h4>Price : {price.toLocaleString("en-IN")}</h4>

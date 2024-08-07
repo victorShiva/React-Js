@@ -30,7 +30,7 @@ import "./Product.css";
 function Product({ options }) {
   //let list = options.map((option) => <li>{option}</li>);
   return (
-    <div className="Product">
+    <div className='Product'>
       <h2>Product Description</h2>
       <ul>
         {options.map((option) => (

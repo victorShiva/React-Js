@@ -4,9 +4,9 @@ import Product from "./Product";
 //  let options = ["Hi-tech", "Durable", "Fast"];
 //  let options2 = { a: "Hi-tech", b: "Durable", c: "Fast" };
 //  return (
-//    <div className="cardGoup">
+//    <div className='cardGoup'>
 //      <Product
-//        title="phone"
+//        title='phone'
 //        price={20000}
 //        features={options}
 //        features2={options2}
