@@ -1,4 +1,5 @@
 import "./App.css";
+import Users from "./Users";
 //import ProductTab from "./ProductTab";
 //import Cards from "./Cards.jsx";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       {/*<ProductTab />*/}
       {/*<Cards />*/}
+      <Users />
     </>
   );
 }
