@@ -1,11 +1,15 @@
 import "./App.css";
-import ProductTab from "./ProductTab";
+import Buttom from "./Button";
+import From from "./From";
+//import ProductTab from "./ProductTab";
 
 function App() {
   return (
     <>
       <h2>Blockbuster Deals | Shop now</h2>
-      <ProductTab />
+      {/*<ProductTab />*/}
+      <From />
+      <Buttom />
     </>
   );
 }

@@ -12,10 +12,17 @@ export default function Price({ oldPrice, newPrice }) {
     alignItems: "center",
   };
   return (
-    <div style={styles}>
+    <div
+      style={styles}
+      onMouseOver={changeColor}>
       <span style={{ textDecoration: "line-through" }}>{oldPrice}</span>
       &nbsp;&nbsp;&nbsp;
       <span style={FontWei}>{newPrice}</span>
     </div>
   );
+}
+
+function changeColor(event) {
+  event.target.style.backgroundColor = "#666";
+  console.log("hover");
 }
